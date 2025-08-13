@@ -17,7 +17,7 @@ The tool is intended to be used on websites and mobile apps where users can:
 
 ## Website / App
 The assistant will be hosted on:  
-`[https://github.com/Moulica5374/RAG-SERIES/tree/main/Real_Time_Ecommerce_Rag]`  
+`https://github.com/Moulica5374/RAG-SERIES/tree/main/Real_Time_Ecommerce_Rag`  
 
 ## Disclaimer
 This tool includes Amazon affiliate links for monetization through the Amazon Associates program. All product data is retrieved in real-time, and recommendations are generated automatically using AI.
