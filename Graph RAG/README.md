@@ -34,7 +34,7 @@ Instead of relying only on vector search, it extracts **entities and relationshi
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 1. **Load Data** → Parse SEC filings (10-K/10-Q).  
 2. **Preprocess** → Extract sections (Business, Risk Factors, etc.).  
 3. **Entity Recognition** → Detect companies, executives, and financial concepts.  
