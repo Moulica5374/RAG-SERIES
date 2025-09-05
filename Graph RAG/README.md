@@ -4,6 +4,7 @@
 This project implements a **Retrieval-Augmented Generation (RAG)** pipeline tailored for the **financial domain**, enhanced with **Knowledge Graphs** for structured reasoning.  
 Instead of relying only on vector search, it extracts **entities and relationships** from financial filings (e.g., SEC 10-K/10-Q reports) and builds a **knowledge graph** to enable **multi-hop, explainable queries**.
 
+
 ---
 
 ##  Features
@@ -16,19 +17,20 @@ Instead of relying only on vector search, it extracts **entities and relationshi
 
 ---
 
-##  Tech Stack
+ ## Tech Stack
+- **Programming Language**: Python 3.8+  
+- **Graph Data Structures**:  
+  - [Neo4j](https://neo4j.com/) with Cypher queries (optional for persistent graphs)  
 - **Language Models**: OpenAI GPT / Hugging Face Transformers  
-- **Graph Libraries**: NetworkX / Neo4j  
 - **Vector Store**: FAISS / Chroma  
 - **NLP**: spaCy, NLTK  
-- **Environment**: Jupyter Notebook (Python 3.8+)  
+- **Environment**: Jupyter Notebook  
 
----
 
 ##  Project Structure
--- **Financial_Rag(Knowledge_Graphs).ipynb
--- **data.json
--- 
+- **Financial_Rag(Knowledge_Graphs).ipynb**
+- **data.json**
+  
 
 
 
@@ -66,8 +68,16 @@ pip install -r requirements.txt
 ```
 
 ### Example Input & Output:
-
+### Query:
 Summarize NetApp’s competitive risks in 2023.
+### Output (sample):
+- Competitors include legacy IT vendors and public cloud providers.
+
+- Pressure from SaaS and flash storage adoption.
+
+- Risks from industry consolidation and emerging startups.
+
+
 
 
 
